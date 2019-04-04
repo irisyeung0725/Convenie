@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConvenieActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/MainPage_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="@string/mainpage_text"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#3E449E" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:layout_width="51dp"
+            android:layout_height="56dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/enter_a" />
+
+        <Button
+            android:id="@+id/MainPage_Button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/mainpage_button"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#F0844E"
+            android:background="#B2C7F1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="432dp"
+        android:layout_height="444dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/front"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

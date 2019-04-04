@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Convenie</string>
+    <string name="mainpage_text">Convenie Database System</string>
+    <string name="mainpage_button">Enter</string>
+</resources>
