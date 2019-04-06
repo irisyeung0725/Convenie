@@ -18,6 +18,11 @@
         </activity>
         <activity android:name=".ButtonActivity"></activity>
         <activity android:name=".EmployeeActivity"></activity>
+        <activity android:name=".ExpireActivity"></activity>
+        <activity android:name=".ItemsActivity"></activity>
+        <activity android:name=".SaleActivity"></activity>
+        <activity android:name=".TransactionActivity"></activity>
+        <activity android:name=".VendorActivity"></activity>
     </application>
 
 </manifest>
