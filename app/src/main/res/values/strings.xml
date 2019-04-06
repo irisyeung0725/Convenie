@@ -2,4 +2,16 @@
     <string name="app_name">Convenie</string>
     <string name="mainpage_text">Convenie Database System</string>
     <string name="mainpage_button">Enter</string>
+    <string name="items_text">Items on hand</string>
+    <string name="employee_text">Employee Information</string>
+    <string name="transaction_text">Transaction Information</string>
+    <string name="vendor_text">Vendor Information</string>
+    <string name="expire_text">Expire Items</string>
+    <string name="sale_text">Sale Information</string>
+    <string name="employee_btn">Employee Information</string>
+    <string name="sale_btn">Sale Information By Date</string>
+    <string name="expire_btn">Expire Items Information</string>
+    <string name="items_btn">Items On Hand Information</string>
+    <string name="vendor_btn">Vendor Information</string>
+    <string name="transaction_btn">Transaction Information</string>
 </resources>

@@ -1,7 +1,5 @@
 package library.convenie;
 
-
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import library.convenie.constant.SQLCommand;
@@ -11,14 +9,14 @@ import android.database.Cursor;
 import android.widget.ScrollView;
 
 
+public class EmployeeActivity extends AppCompatActivity{
 
-public class QueryActivity extends AppCompatActivity {
     /** Called when the activity is first created. */
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_query);
+        setContentView(R.layout.activity_emloyee);
 
 //        copy database file
         try{
@@ -31,8 +29,9 @@ public class QueryActivity extends AppCompatActivity {
         Cursor cursor = DBOperator.getInstance().execQuery(SQLCommand.QUERY_EMPLOYEE);
         TableView tableView = new TableView(this, cursor);
 //        show data in tableview
-        ScrollView scrollView = (ScrollView)this.findViewById(R.id.query_scrollview);
+        ScrollView scrollView = (ScrollView)this.findViewById(R.id.employee_scrollview);
         scrollView.addView(tableView);
     }
+
 
 }

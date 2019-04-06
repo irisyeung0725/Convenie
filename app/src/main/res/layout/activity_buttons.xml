@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/Employee_Btn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="@string/employee_btn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/Expire_Btn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/expire_btn" />
+
+    <Button
+        android:id="@+id/Sale_Btn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/sale_btn" />
+
+    <Button
+        android:id="@+id/Items_Btn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/items_btn" />
+
+    <Button
+        android:id="@+id/Vendor_Btn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/vendor_btn" />
+
+    <Button
+        android:id="@+id/Transaction_Btn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/transaction_btn" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/button" />
+
+
+
+
+
+
+</LinearLayout>
