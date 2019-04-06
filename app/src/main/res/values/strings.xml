@@ -6,11 +6,11 @@
     <string name="employee_text">Employee Information</string>
     <string name="transaction_text">Transaction Information</string>
     <string name="vendor_text">Vendor Information</string>
-    <string name="expire_text">Expired Items</string>
+    <string name="expire_text" translatable="false">Expire Date Information</string>
     <string name="sale_text">Sale Information</string>
     <string name="employee_btn">Employee Information</string>
     <string name="sale_btn">Sale Information By Date</string>
-    <string name="expire_btn" translatable="false">Expired Items Information</string>
+    <string name="expire_btn" translatable="false">Expire Date Information</string>
     <string name="items_btn">Items On Hand Information</string>
     <string name="vendor_btn">Vendor Information</string>
     <string name="transaction_btn">Transaction Information</string>
