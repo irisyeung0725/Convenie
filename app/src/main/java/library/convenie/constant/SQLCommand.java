@@ -13,5 +13,6 @@ public abstract class SQLCommand {
     public static String QUERY_TRANSACTION = "select count(InvoiceID), Sales_Date from Invoice group by Sales_Date";
     public static String QUERY_ITEMS = "select Items_Name, Item_QOH from Items order by Item_QOH";
     public static String QUERY_EXPIRE = "select Items_Name, Item_QOH from Items order by Expire_Date";
-    public static String QUERY_SALE = "select sum(Line_QTY * Line_Price) as Total_Sales from InvoiceLines, Invoice where InvoiceLines.InvoiceID = InvoiceLines.InvoiceID group by Invoice.Sales_Date";
+    public static String QUERY_SALE = "select sum(Line_Qty * Line_Price) as Total_Sales, Sales_Date from InvoiceLines, " +
+            "Invoice where InvoiceLines.InvoiceID = Invoice.InvoiceID group by Invoice.Sales_Date";
 }

@@ -22,7 +22,6 @@ public class ConvenieActivity extends AppCompatActivity implements OnClickListen
         enterBtn.setOnClickListener(this);
 
         try{
-
             DBOperator.copyDB(getBaseContext());
         }catch (Exception e){
             e.printStackTrace();

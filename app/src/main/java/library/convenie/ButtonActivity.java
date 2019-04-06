@@ -15,6 +15,7 @@ import android.content.Intent;
 public class ButtonActivity extends AppCompatActivity implements OnClickListener {
 
     Button employeeBtn, expireBtn, itemsBtn, saleBtn, transactionBtn, vendorBtn;
+
     /** Called when the activity is first created. */
 
     @Override
