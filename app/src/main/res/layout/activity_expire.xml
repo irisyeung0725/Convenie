@@ -10,9 +10,9 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="121dp"
+        android:layout_height="127dp"
         android:layout_marginTop="2dp"
-        app:srcCompat="@drawable/storesign" />
+        app:srcCompat="@drawable/expire2" />
 
 
     <TextView
@@ -20,7 +20,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/expire_text"
-        android:textAlignment="viewStart"
         android:textSize="30sp"
         android:textStyle="italic"
         android:layout_gravity="center_horizontal"
@@ -30,15 +29,15 @@
     <ScrollView
         android:id="@+id/expire_scrollview"
         android:layout_width="430dp"
-        android:layout_height="275dp">
+        android:layout_height="259dp">
 
     </ScrollView>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="149dp"
+        android:layout_height="167dp"
         android:layout_marginTop="0dp"
-        app:srcCompat="@drawable/itemsonhand" />
+        app:srcCompat="@drawable/expire" />
 
 
 </LinearLayout>
