@@ -17,4 +17,5 @@
     <string name="editText2">inputType</string>
     <string name="editText1">inputType</string>
     <string name="button1">onClick</string>
+    <string name="gobackbtn">back</string>
 </resources>
