@@ -23,6 +23,7 @@
         <activity android:name=".SaleActivity"></activity>
         <activity android:name=".TransactionActivity"></activity>
         <activity android:name=".VendorActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
     </application>
 
 </manifest>

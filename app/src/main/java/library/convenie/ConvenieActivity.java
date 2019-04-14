@@ -32,7 +32,7 @@ public class ConvenieActivity extends AppCompatActivity implements OnClickListen
 
         int id=v.getId();
         if (id==R.id.MainPage_Button){
-            Intent intent = new Intent(this, ButtonActivity.class);
+            Intent intent = new Intent(this, LoginActivity.class);
             this.startActivity(intent);
 
         }

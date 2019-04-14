@@ -14,4 +14,7 @@
     <string name="items_btn">Items On Hand Information</string>
     <string name="vendor_btn">Vendor Information</string>
     <string name="transaction_btn">Transaction Information</string>
+    <string name="editText2">inputType</string>
+    <string name="editText1">inputType</string>
+    <string name="button1">onClick</string>
 </resources>

@@ -13,7 +13,7 @@ public class DBConstant {
 
 //        database file name
 
-    public static String DATABASE_FILE = "ConvenienceStore.db";
+    public static String DATABASE_NAME = "ConvenienceStore.db";
 
 //        database file version
 

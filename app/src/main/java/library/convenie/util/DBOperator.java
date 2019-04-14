@@ -24,7 +24,7 @@ public class DBOperator {
     private DBOperator()
     {
         //path of database file
-        String path = DBConstant.DATABASE_PATH + "/" + DBConstant.DATABASE_FILE;
+        String path = DBConstant.DATABASE_PATH + "/" + DBConstant.DATABASE_NAME;
         db = SQLiteDatabase.openDatabase(path, null, SQLiteDatabase.OPEN_READWRITE);
     }
     /*
@@ -41,12 +41,12 @@ public class DBOperator {
      * From assets folder (in the project) to android folder (on device)
      */
     public static void copyDB(Context context) throws IOException,FileNotFoundException{
-        String path = DBConstant.DATABASE_PATH + "/" + DBConstant.DATABASE_FILE;
+        String path = DBConstant.DATABASE_PATH + "/" + DBConstant.DATABASE_NAME;
         File file = new File(path);
         if (!file.exists()){
             DBOpenHelper dbhelper = new DBOpenHelper(context, path ,1);
             dbhelper.getWritableDatabase();
-            InputStream is = context.getAssets().open(DBConstant.DATABASE_FILE);
+            InputStream is = context.getAssets().open(DBConstant.DATABASE_NAME);
             OutputStream os = new FileOutputStream(file);
             byte[] buffer = new byte[1024];
             int length;
