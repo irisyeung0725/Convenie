@@ -18,4 +18,8 @@
     <string name="editText1">inputType</string>
     <string name="button1">onClick</string>
     <string name="gobackbtn">back</string>
+    <string name="input_textview">Input Data</string>
+    <string name="Input_Employee">Employee Information</string>
+    <string name="input_vendor">Vendor Information</string>
+    <string name="input_items">Items Information</string>
 </resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_gravity="center_horizontal"
+android:background="#ffffff"
+android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/input2"
+        android:paddingTop="12dp"/>
+
+    <TextView
+        android:id="@+id/Input_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_textview"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#030812"/>
+
+    <Button
+        android:id="@+id/Input_Employee_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Input_Employee"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/input_Vendor_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/input_vendor"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/input_Items_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/input_items"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/goback_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/gobackbtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/moomin" />
+</LinearLayout>

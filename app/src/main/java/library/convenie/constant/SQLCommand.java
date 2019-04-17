@@ -15,4 +15,5 @@ public abstract class SQLCommand {
     public static String QUERY_EXPIRE = "select Item_Category, Items_Name, cast((julianday(date(Expire_date)) - julianday('2017-07-20')) as int) as \"Days to expire\" from Items where \"Days to expire\" > 0 order by Item_Category";
     public static String QUERY_SALE = "select sum(Line_Qty * Line_Price) as Total_Sales, Sales_Date from InvoiceLines, " +
             "Invoice where InvoiceLines.InvoiceID = Invoice.InvoiceID group by Invoice.Sales_Date";
+    public static String QUERY_INPUTEMP = "insert into Employee(EmpID, Emp_Name, Emp_Role, Salary) values(?,?,?,?)";
 }
