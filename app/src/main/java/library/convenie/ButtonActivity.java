@@ -14,7 +14,7 @@ import android.content.Intent;
 
 public class ButtonActivity extends AppCompatActivity implements OnClickListener {
 
-    Button employeeBtn, expireBtn, itemsBtn, saleBtn, transactionBtn, vendorBtn;
+    Button employeeBtn, expireBtn, itemsBtn, saleBtn, transactionBtn, vendorBtn, gobackBtn;
 
     /** Called when the activity is first created. */
 
@@ -35,6 +35,8 @@ public class ButtonActivity extends AppCompatActivity implements OnClickListener
         transactionBtn.setOnClickListener(this);
         vendorBtn = (Button)this.findViewById(R.id.Vendor_Btn);
         vendorBtn.setOnClickListener(this);
+        gobackBtn = (Button)this.findViewById(R.id.goback_btn);
+        gobackBtn.setOnClickListener(this);
 
 //        copy database file
         try{
@@ -72,7 +74,11 @@ public class ButtonActivity extends AppCompatActivity implements OnClickListener
         }else if (id==R.id.Vendor_Btn){
             Intent intent = new Intent (this, VendorActivity.class);
             this.startActivity(intent);
+        }else if (id==R.id.goback_btn){
+            Intent intent = new Intent (this, ConvenieActivity.class);
+            this.startActivity(intent);
         }
+
 
     }
 
